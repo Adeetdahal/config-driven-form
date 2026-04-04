@@ -1,0 +1,52 @@
+.container {
+  margin-top: 32px;
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 24px;
+  color: #e2e8f0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: #22c55e;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.description {
+  font-size: 13px;
+  color: #94a3b8;
+  margin: 0 0 16px;
+}
+
+.code {
+  background: #1e293b;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 13px;
+  font-family: "Fira Code", "Courier New", monospace;
+  color: #86efac;
+  overflow-x: auto;
+  line-height: 1.6;
+  margin: 0;
+}

@@ -13,15 +13,26 @@ export default function DynamicForm() {
     reset,
     control,
     formState: { errors }
-  } = useForm({ defaultValues: { applicants: [{ firstName: "", lastName: "", email: "", number: "", bankAccounts: [{}] }] } });
+  } = useForm({
+    defaultValues: {
+      applicants: [
+        {
+          firstName: "",
+          lastName: "",
+          email: "",
+          number: "",
+          bankAccounts: [{}]
+        }
+      ]
+    }
+  });
 
   const addApplicant = () => setApplicants((p) => [...p, {}]);
   const removeApplicant = (i) =>
     setApplicants((p) => p.filter((_, idx) => idx !== i));
 
   const onSubmit = (data) => setPayload(data);
-  console.log("payload", payload);
-  // console.log("data", data);
+  // console.log("payload", payload);
 
   const onReset = () => {
     setApplicants([{}]);

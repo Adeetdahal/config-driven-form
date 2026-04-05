@@ -4,7 +4,7 @@ A practical implementation of the config-driven nested repeatable form pattern, 
 
 ## What This Repo Demonstrates
 
-How to scale complex React forms without hardcoding JSX — using configuration, instances, and a data structure that mirrors the final API payload.
+How to scale complex React forms without hardcoding JSX using configuration, instances, and a data structure that mirrors the final API payload.
 
 ## The Core Idea
 

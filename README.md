@@ -46,4 +46,4 @@ src/
 
 ## Related
 
-Read the full article on Medium: [Dynamic Form](#)
+Read the full article on Medium: https://medium.com/@dahaladit61/config-driven-forms-in-react-repeatable-nested-and-api-ready-57247102897c
